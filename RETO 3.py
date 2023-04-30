@@ -238,6 +238,7 @@ def iniseci():
                                             coordenadas.pop(0)
                                             coordenadas.insert(0,new)
                                             print(coordenadas)
+                                            break
                                         elif cambiocoord == "2":
                                             print("ingrese la nueva cordenada")
                                             la=float(input("longitud--->"))
@@ -246,6 +247,7 @@ def iniseci():
                                             coordenadas.pop(1)
                                             coordenadas.insert(1,new)
                                             print(coordenadas)
+                                            break
                                         elif cambiocoord == "3":
                                             print("ingrese la nueva cordenada")
                                             la=float(input("longitud--->"))
@@ -254,6 +256,7 @@ def iniseci():
                                             coordenadas.pop(2)
                                             coordenadas.insert(2,new)
                                             print(coordenadas)
+                                            break
                                         elif cambiocoord == "0":
                                             print("seras rediriguido al menu")
                             
